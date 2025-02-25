@@ -32,6 +32,22 @@ namespace ConsoleApp15
         }
     }
 
+    public class FamilyCar : ICar
+    {
+        public void Drive()
+        {
+            Console.WriteLine("Вождение семейного автомобиля");
+        }
+    }
+
+    public class FamilyMotorcycle : IMotorcycle
+    {
+        public void Ride()
+        {
+            Console.WriteLine("Вождение семейного мотоцикла");
+        }
+    }
+
     public interface IVehicleFactory
     {
         ICar CreateCar();
@@ -42,6 +58,12 @@ namespace ConsoleApp15
     {
         public ICar CreateCar() { return new SportsCar(); }
         public IMotorcycle CreateMotorcycle() { return new SportsMotorcycle(); }
+    }
+
+    public class FamilyVehicleFactory : IVehicleFactory
+    {
+        public ICar CreateCar() { return new FamilyCar(); }
+        public IMotorcycle CreateMotorcycle() { return new FamilyMotorcycle(); }
     }
 
     public class Client
@@ -69,6 +91,10 @@ namespace ConsoleApp15
             IVehicleFactory sportsFactory = new SportsVehicleFactory();
             Client sportsClient = new Client(sportsFactory);
             sportsClient.DriveVehicle();
+
+            IVehicleFactory familyFactory = new FamilyVehicleFactory();
+            Client familyClient = new Client(familyFactory);
+            familyClient.DriveVehicle();
 
             Console.ReadLine();
         }

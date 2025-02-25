@@ -5,3 +5,10 @@ C:\Users\User\source\repos\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.cspr
 C:\Users\User\source\repos\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.exe
 C:\Users\User\source\repos\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.pdb
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\bin\Debug\ConsoleApp15.exe.config
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\bin\Debug\ConsoleApp15.exe
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\bin\Debug\ConsoleApp15.pdb
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.exe
+C:\Users\User\Desktop\Patterns\AbstractFactory\ConsoleApp15\ConsoleApp15\obj\Debug\ConsoleApp15.pdb
